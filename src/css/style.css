@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fontfamily {
+  font-family: "Open Sans", sans-serif;
+}
+.bg_color {
+  background-color: #e6edf3;
+}
+.MuiDrawer-root{
+  margin-top: 50%;
+}
+/* .MuiTableHead-root{
+  background-color: #e6edf3;
+} */
+.logoicon{
+  display: flex;
+  justify-content: space-between!important;
+}
+.css-hyum1k-MuiToolbar-root{
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+}
+.notification{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.MuiTableCell-body{
+  height: 60px;
+ 
+}
+.MuiTableCell-head{
+  height: 50px;
+  
+  
+}
+.MuiTableCell-head{
+  background: #F9FAFB;
+  
+}
+.appointment-button-delete{
+  padding: 15px 25px  ;
+  background: rgba(233, 23, 23, 0.2);
+border: 1px solid #E91717;
+border-radius: 8px;
+color: #E91717;
+margin-top: 20px;
+
+
+}
+
+.appointment-button-creat{
+  padding: 15px 15px ;
+  background: rgba(46, 127, 253, 0.12);
+  border: 1px solid #2E7FFD;
+  border-radius: 8px;
+margin-top: 20px;
+margin-left: 20px;
+color:  #2E7FFD;
+margin-right: 20px;
+
+}
+.rewardhistry{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #488FFD;
+  color: #488FFD;
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.MuiTableCell-body{
+  padding: 0 !important;
+}
+.husnain{
+  background: #FFFFFF;
+  /* box-shadow: 0px 14.9718px 44.9154px rgba(17, 38, 146, 0.05); */
+  border-radius: 12px;
+  box-shadow: 0px 1px 4px #d3d6dd;
+}
+.view-modal{
+ height: 50px;
+}
+#starick::after{
+  content: "*";
+  color: red;
+}
+.gy{
+  position: relative;
+  opacity: 1;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+  height: 35vh;
+  width: 98.5%;
+  margin-left: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.text_dropzone{
+position: absolute;
+top: 70%;
+left: 37%;
+color: #B3C0CD;
+font-family: inter;
+font-size: 14px;
+font-weight: 400;
+
+}
+.dropzone_img{
+  position: absolute;
+top: 35%;
+opacity: 0.3;
+left: 45%;
+}
+.first_drop_zone{
+  position: relative;
+  opacity: 1;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+
+  height: 50vh;
+  width: 96%;
+  margin-left: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.dropzone_img_first{
+  position: absolute;
+  top: 30%;
+  opacity: 0.2;
+  left: 43%;
+}
+.text_dropzone-first{
+  position: absolute;
+top: 55%;
+left: 23%;
+color: #B3C0CD;
+font-family: inter;
+font-size: 14px;
+font-weight: 400;
+opacity: 0.3;
+}
+.jii{
+  position: relative;
+  
+  height: 100%;
+  width: 100%;
+
+}
+.buttondeletdropzone{
+  position: absolute;
+  top: 20px;
+ right: 0;
+ margin-right: 30px;
+}
+.notificationset{
+  background: #FFFFFF;
+box-shadow: 0px 0px 5.25714px rgba(0, 0, 0, 0.3);
+border-radius: 5.25714px;
+}
+
+.sidebar-item {
+  border-left: 2px solid transparent;
+  
+ 
+}
+
+.sidebar-item.active {
+  border-left-color: blue;
+
+
+}
+
+.huq{
+  background: #FFFFFF;
+box-shadow: 0px 0px 5.25714px rgba(0, 0, 0, 0.3);
+border-radius: 5.25714px;
+}
+.buttonbg{
+  background-color: transparent;
+  border: transparent;
+  color: #879099 !important;
+  text-transform: capitalize !important;
+}
+.buttonbg:hover{
+  background-color: transparent !important;
+}
+
+
+.blog_desc{
+  display: -webkit-box;   
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;     
+  overflow: hidden;
+}
+.desc{
+  display: -webkit-box;   
+  -webkit-line-clamp: .5;   
+  -webkit-box-orient: vertical;     
+  overflow: hidden;
+}
+.intergity-img{
+ object-fit: fill;
+}
+.user_img{
+  border: 1px solid transparent;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.upload_media{
+  position: relative;
+  opacity: 1;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+
+  height: 25vh !important;
+ 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.uploadimg_text{
+  position: absolute;
+top: 50%;
+left: 45%;
+
+color: #B3C0CD;
+font-family: inter;
+font-size: 14px;
+font-weight: 400;
+}
+.upload_dropzone_img_first{
+  position: absolute;
+  top: 30%;
+  opacity: 0.2;
+ text-align: center;
+}
+.myclick_dropdown{
+  width: 200px !important;
+}
+.fromcontrol_dropdown{
+  width: 355px !important;
+  height: 50px;
+  
+}
+.next2Label{
+  display: none !important;
+}
+.css-1o9s3wi-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill{
+height: 2px !important;
+}
+/* .react-calendar{
+width: 100% !important;
+  border: none !important;
+  box-shadow: 0px 0px 33px 5px rgba(8, 9, 12, 0.05), 0px 4px 6px -2px rgba(26, 27, 29, 0.05);
+}
+.react-calendar__navigation{
+  background-color: #E4E7EC;
+}
+.react-calendar__tile--active{
+  background: linear-gradient(80.67deg, #B0AEAF 27.97%, #838181 58.85%, #918F8F 68.9%, #BFBFBF 96.9%) !important;
+} */
+.react-calendar {
+  width: 350px;
+  width: 100% !important;
+  background: white;
+  border: 1px transparent !important;
+  box-shadow: 0px 0px 33px 5px rgba(8, 9, 12, 0.05), 0px 4px 6px -2px rgba(26, 27, 29, 0.05) !important;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+
+.react-calendar--doubleView {
+  width: 700px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 44px;
+  margin-bottom: 1em;
+  background-color: #E4E7EC;
+}
+
+.react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #131111 !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--now {
+  background: #ffff76;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffffa9;
+}
+
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+
+.react-calendar__tile--active {
+  background: linear-gradient(80.67deg, #B0AEAF 27.97%, #838181 58.85%, #918F8F 68.9%, #BFBFBF 96.9%) !important;
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #b8bbbd;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+.react-calendar__navigation__next2-button {
+  display: none;
+  
+}
+.react-calendar__navigation__prev2-button{
+  display: none;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+  border-radius: inherit;
+  height: 10px !important;
+}
+  
+  
+  
